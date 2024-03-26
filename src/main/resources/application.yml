@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///xdb
+    tomcat:
+      map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com.lantu: debug
